@@ -1,0 +1,7 @@
+header{
+    background-color: darkgrey;
+}
+header > nav > a {
+    color: black;
+}
+body{background-image: url(Om\ Namah\ Shivaya.jpg);}
