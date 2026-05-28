@@ -1,0 +1,14 @@
+.card {
+    background-color: black;
+    box-sizing: border-box ;
+    color: antiquewhite; 
+    width:400; height:80;
+    margin-bottom: 24px;
+    margin: 0 auto;
+    padding: 20px 40px 50px 5px;
+    border: 3px dashed white; 
+    margin-top: 24px;
+
+p {
+    color: chocolate;
+}
