@@ -1,0 +1,42 @@
+body{background-image:url(codebg.jpg);
+    font-size: medium;
+    font-weight:bold;
+    font-style: italic;
+}
+
+.footerimg{
+    width: 112px;
+}
+
+header{color: chartreuse;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-family:cursive;
+    font-style:italic;
+    text-shadow: 4px 5px 6px white;
+    text-transform: uppercase;
+}
+img{
+    width: 550px;
+    border: 5px solid white;
+    border-radius: 6px;
+    margin: 0 10px;
+    box-shadow:6px 6px 8px blue;
+}
+p{
+    color: rgba(195, 13, 110, 0.734);
+    font-style:normal;
+    line-height:1.5;
+}
+nav a {
+    color: rgb(128, 120, 10);
+    padding: 14px;
+    margin: 0 10px;
+
+}
