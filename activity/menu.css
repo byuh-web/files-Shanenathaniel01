@@ -1,0 +1,19 @@
+.menu{
+    display: grid;
+    grid-template-columns: 7fr 7fr 7fr;
+    border: 6px solid black;
+    gap: 15px;
+    background-color: chocolate;
+    }
+
+div{
+    border: 2px solid white;
+}
+.special{
+    grid-column:span 3;
+    background-color: cornflowerblue;
+
+}
+header{
+    font-style: italic;
+}
