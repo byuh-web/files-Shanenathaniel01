@@ -1,0 +1,99 @@
+
+body{
+    background-color: rgb(125, 142, 164);
+}
+header{
+    background-color: rgb(203, 222, 241);
+    box-shadow: 8px 8px 8px 8px black;
+}
+nav{
+    
+
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    color: rgb(193, 68, 166);
+    border: 2px solid rgb(161, 126, 212);
+}
+nav a:hover{
+    background-color: white;
+}
+img{
+    width: 150px;
+     height: 150px;
+}
+
+.para{
+      padding: 5px;
+    display: flex;
+     
+}
+aside {
+    width: 420px;
+}
+
+
+.p1{
+    display: flex;
+    width:auto;
+    justify-content: space-evenly;
+    flex: 0 0 20%;
+    gap:40px;
+    padding: 50px;
+    
+    border: 2px solid rgb(185, 186, 192);
+    box-shadow: 15px 15px 15px 15px rgb(175, 172, 119);
+    
+
+}
+.p1mama {
+    margin-left: 7px;
+    display: flex;
+    width:auto;
+    justify-content: space-evenly;
+    flex: 0 0 20%;
+    gap:40px;
+    padding: 50px;
+    
+    border: 2px solid rgb(185, 186, 192);
+    box-shadow: 15px 15px 15px 15px rgb(175, 172, 119);
+    
+
+    
+}
+.photos {
+
+    display: flex;
+   
+    flex-wrap: wrap;
+     width:90%;
+     padding:10px;
+      gap:30px;
+      justify-content: space-evenly;
+}
+@media only print{
+    nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(12, 185, 70);
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    .para{
+        flex-direction: column-reverse;
+    }
+    .p1 {
+        width: auto;
+    }
+    .p1mama {
+        width: auto;
+    }
+}
