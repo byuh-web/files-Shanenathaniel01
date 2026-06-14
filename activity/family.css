@@ -81,7 +81,7 @@ aside {
 
 @media only screen and (max-width:600px){
     body{
-        background-color: rgb(12, 185, 70);
+        background-color: rgb(126, 176, 192);
     }
     nav {
         flex-direction: column;
